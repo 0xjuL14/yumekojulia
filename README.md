@@ -27,15 +27,15 @@ int main() {
 }
 
 void introduce(DevInProgress me) {
-    printf("👋 Oie! Eu sou a %s!\n", me.name);
-    printf("💻 Atualmente: %s\n", me.role);
+    printf("Oie! Eu sou a %s!\n", me.name);
+    printf("Atualmente: %s\n", me.role);
 
-    printf("🌍 Idiomas: ");
+    printf("Idiomas: ");
     for (int i = 0; me.languages[i] != NULL; i++) {
         printf("%s ", me.languages[i]);
     }
 
-    printf("\n✨ Obrigada por visitar meu repositório! 💖\n");
+    printf("\n Obrigada por visitar meu repositório! <3 \n");
 }
 
 ```
@@ -50,7 +50,7 @@ void introduce(DevInProgress me) {
 
 <div align="center">
 
-### 🌱 I'm always learning
+### I'm always learning:
 <br>
 
 <p align="center">
